@@ -108,11 +108,15 @@
 }
 
 @media screen and (max-width: 1050px) {
+	.gpt3__header-content__input button {
+		font-size: 20px;
+	}
 	.gpt3__header {
 		flex-direction: column;
 	}
-	.gpt3__header-content__input button {
-		font-size: 20px;
+	.gpt3__header-content__people {
+		justify-content: center;
+		margin-top: 1rem;
 	}
 	.gpt3__header-image {
 		margin: 0 auto;
